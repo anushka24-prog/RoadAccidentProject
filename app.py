@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
-st.title( "🚦 Road Accident Prediction Using Machine Learning")
+st.title("🚦 Road Accident Prediction Using Machine Learning")
 
 df = pd.read_csv("accidentt.csv")
 st.success("Dataset Loaded Successfully")
